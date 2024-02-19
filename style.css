@@ -1,0 +1,23 @@
+body {
+  font-family: "Raleway", sans-serif;
+
+}
+
+body , html{
+  width: 100%;
+  overflow-x: hidden !important;
+}
+span.bg-\[\#1DD100\].pt-1.pb-1.pl1-1.pr-1 {
+  border-radius: 100%;
+  padding: 1px 3px 3px 3px;
+}
+
+.kbd {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.kbd.active {
+  background-color: #1dd100; /* Change to desired active color */
+  color: white; /* Change to desired text color */
+}
